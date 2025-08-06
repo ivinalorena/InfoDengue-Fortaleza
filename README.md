@@ -1,7 +1,8 @@
 # InfoDengue-Fortaleza
 Previsão de Casos de Dengue em Fortaleza-CE (2025) usando LSTM
 
-🔍 Descrição
+# 🔍 Descrição
+
 Projeto de previsão de casos de dengue em Fortaleza-CE para 2025, utilizando redes neurais LSTM (Long Short-Term Memory) para modelagem de séries temporais. O modelo foi treinado com dados históricos para capturar padrões sazonais e tendências, gerando projeções com métricas de avaliação robustas.
 
 # Tecnologias e Bibliotecas
