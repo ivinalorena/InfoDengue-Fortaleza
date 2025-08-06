@@ -8,7 +8,7 @@ from keras.metrics import RootMeanSquaredError, MeanAbsoluteError
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 
-df = pd.read_csv("C:\\Users\\Ivina\\Desktop\\fortaleza_lstm\\Fortaleza-dengue (2).csv")
+df = pd.read_csv("caminho_do_CSV")
 df=df.sort_values(by='data_iniSE')
 
 df_modificado = df[['casos_est']].copy()
@@ -57,7 +57,7 @@ modelo.compile(optimizer='adam',
 
 modelo.fit(X_treinamento, y_treinamento, batch_size=32, epochs=100, verbose=1)
 #salva o modelo treinado
-#modelo.save('modelo_lstm_dengue.h5')
+modelo.save('modelo_lstm_dengue.h5')
 
 previsao_treinamento_lstm = modelo.predict(X_treinamento)
 previsao_treinamento_desnormalizada = normalizador.inverse_transform(previsao_treinamento_lstm)
@@ -138,3 +138,4 @@ previsoes_futuras_df = pd.DataFrame({
 })
 
 previsoes_futuras_df.to_csv('previsoes_futuras_dengue.csv', index=False)
+
