@@ -44,7 +44,7 @@ Métricas calculadas para treino e teste (MAPE, RMSE, MAE).
 📉 Gráficos
 Série histórica vs. prevista (treino e teste).
 
-Projeção para 2025 (com intervalo de confiança, se aplicável).
+Projeção para 2025.
 
 # 📊 Métricas
 Conjunto  |	MAPE  | RMSE	| MAE
