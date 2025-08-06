@@ -46,14 +46,14 @@ Série histórica vs. prevista (treino e teste).
 Projeção para 2025 (com intervalo de confiança, se aplicável).
 
 #📊 Métricas
-Conjunto  |	MAPE	RMSE	MAE
---------  |----------------  
-Treino	|  25.36%	160.31	88.68
-Teste	  | 23.81%	69.99	49.77
-Dados do Modelo:
+Conjunto  |	MAPE  | RMSE	| MAE
+--------  |--------|------|-----  
+Treino	|  25.36%  |	160.31	| 88.68
+--------| --------|---------|-------
+Teste	  | 23.81%	|69.99	| 49.77
+----------------------------------
+*Dados do Modelo:
 Total de amostras: 575
-
 Treinamento: 456 amostras (79.9%).
-
 Teste: 115 amostras (20.1%).
 
